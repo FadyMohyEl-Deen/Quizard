@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 function Hero() {
   return (
@@ -20,11 +21,11 @@ function Hero() {
                 master!
               </p>
               {/* Hero Button */}
-              <a
-                href="Register"
-                className="mb-6 mr-6 w-36 rounded-md bg-black px-6 py-3 text-center font-semibold text-white md:mb-10 lg:mb-12 lg:mr-8">
+              <Link
+                href="/Register"
+                className="hover:bg-zinc-800 hover:scale-[101%] transition-all ease-in-out duration-300 mb-6 mr-6 w-36 rounded-md bg-black px-6 py-3 text-center font-semibold text-white md:mb-10 lg:mb-12 lg:mr-8">
                 Join Now
-              </a>
+              </Link>
               {/* Hero Comment */}
               <div className="max-w-xs">
                 <p className="mb-4 text-sm text-gray-500">

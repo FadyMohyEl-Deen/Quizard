@@ -12,6 +12,10 @@ function Login() {
   const [buttonDisabled, setButtonDisabled] = React.useState(false);
 
   const onLogin = async () => {
+    if (!user.email || !user.password) {
+      toast.error("Please enter email and password");
+      return;
+    }
     try {
       setLoading(true);
     } finally {
@@ -41,7 +45,7 @@ function Login() {
       />
       <section>
         <div className="mx-auto w-full max-w-3xl px-5 py-16 md:px-10 md:py-20">
-          <div className="mx-auto max-w-xl bg-gray-100 px-8 py-12 text-center">
+          <div className="mx-auto max-w-xl rounded-md bg-gray-100 px-8 py-12 text-center">
             <h2 className="text-3xl mx-auto text-center font-bold max-w-sm md:text-5xl">
               Welcome back to Quizard
             </h2>

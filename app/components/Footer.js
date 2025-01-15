@@ -40,12 +40,12 @@ function Footer() {
               <a
                 href="#"
                 className="inline-block font-normal text-gray-500 transition hover:text-blue-600 sm:pr-6 lg:pr-12 py-1.5 sm:py-2 pr-6">
-                About
+                Home
               </a>
               <a
                 href="#"
                 className="inline-block font-normal text-gray-500 transition hover:text-blue-600 sm:pr-6 lg:pr-12 py-1.5 sm:py-2 pr-6">
-                Features
+                Services
               </a>
               <a
                 href="#"
@@ -55,16 +55,21 @@ function Footer() {
               <a
                 href="#"
                 className="inline-block font-normal text-gray-500 transition hover:text-blue-600 sm:pr-6 lg:pr-12 py-1.5 sm:py-2 pr-6">
-                Support
+                About Us
               </a>
               <a
                 href="#"
                 className="inline-block font-normal text-gray-500 transition hover:text-blue-600 sm:pr-6 lg:pr-12 py-1.5 sm:py-2 pr-6">
-                Help
+                Contact Us
+              </a>
+              <a
+                href="#"
+                className="inline-block font-normal text-gray-500 transition hover:text-blue-600 sm:pr-6 lg:pr-12 py-1.5 sm:py-2 pr-6">
+                Careers
               </a>
             </div>
             <p className="text-gray-500 text-sm sm:text-base">
-              © Copyright 2021. All rights reserved.
+              © 2021 Quizard.co. All rights reserved.
             </p>
           </div>
         </div>

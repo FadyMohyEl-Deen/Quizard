@@ -26,7 +26,7 @@ function Register() {
     try {
       setLoading(true);
       const response = await axios.post("/api/users/register", user);
-      toast.success("register success" + response.data);
+      toast.success("Register Successful");
       router.push("/Login");
     } catch (error) {
       toast.error("signup failed, " + error.message);
@@ -62,7 +62,7 @@ function Register() {
       />
       <section>
         <div className="mx-auto w-full max-w-3xl px-5 py-16 md:px-10 md:py-20">
-          <div className="mx-auto max-w-xl bg-gray-100 px-8 py-12 text-center">
+          <div className="mx-auto max-w-xl rounded-md bg-gray-100 px-8 py-12 text-center">
             <h2 className="text-3xl mx-auto text-center font-bold max-w-sm md:text-5xl">
               Join Quizard today
             </h2>
