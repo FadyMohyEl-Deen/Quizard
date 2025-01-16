@@ -26,6 +26,10 @@ function Register() {
     try {
       setLoading(true);
       const response = await axios.post("/api/users/register", user);
+      if (response.data.message === "Email already exists") {
+        toast.error("Email is already exists, Please use a different one.");
+        return;
+      }
       toast.success("Register Successful");
       router.push("/Login");
     } catch (error) {

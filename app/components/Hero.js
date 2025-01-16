@@ -6,7 +6,7 @@ function Hero() {
     <div>
       <header>
         {/* Hero Container */}
-        <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-20">
+        <div className="mx-auto w-full max-w-7xl px-5 py-10 md:px-10 md:py-20">
           {/* Component */}
           <div className="grid items-center justify-items-start gap-8 sm:gap-20 lg:grid-cols-2">
             {/* Hero Content */}
@@ -36,7 +36,7 @@ function Hero() {
                 <div className="flex items-center gap-11 sm:flex-row">
                   <div className="flex items-center">
                     <img
-                      src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FPlaceholder%20Image.svg?alt=media&token=375a1ea3-a8b6-4d63-b975-aac8d0174074"
+                      src="https://cdn-icons-png.freepik.com/512/180/180693.png"
                       alt=""
                       className="mr-2 inline-block rounded-full object-cover h-7 w-7 sm:h-7"
                     />

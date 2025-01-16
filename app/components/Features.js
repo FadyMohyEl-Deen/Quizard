@@ -21,7 +21,7 @@ function Features() {
             {/* Features Item */}
             <div className="grid gap-6 rounded-md border border-solid border-gray-300 p-8 md:p-10">
               <img
-                src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FPlaceholder%20Image.svg?alt=media&token=375a1ea3-a8b6-4d63-b975-aac8d0174074"
+                src="https://t3.ftcdn.net/jpg/05/10/88/82/360_F_510888200_EentlrpDCeyf2L5FZEeSfgYaeiZ80qAU.jpg"
                 alt=""
                 className="inline-block h-16 w-16 object-cover rounded-full "
               />
@@ -34,7 +34,7 @@ function Features() {
             {/* Features Item */}
             <div className="grid gap-6 rounded-md border border-solid border-gray-300 p-8 md:p-10">
               <img
-                src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FPlaceholder%20Image.svg?alt=media&token=375a1ea3-a8b6-4d63-b975-aac8d0174074"
+                src="https://static.thenounproject.com/png/2630835-200.png"
                 alt=""
                 className="inline-block h-16 w-16 object-cover rounded-full "
               />
@@ -46,7 +46,7 @@ function Features() {
             {/* Features Item */}
             <div className="grid gap-6 rounded-md border border-solid border-gray-300 p-8 md:p-10">
               <img
-                src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FPlaceholder%20Image.svg?alt=media&token=375a1ea3-a8b6-4d63-b975-aac8d0174074"
+                src="https://media.istockphoto.com/id/921429972/vector/flexibility-icon-vector-illustration.jpg?s=612x612&w=0&k=20&c=OJRFVO5RgLFfaX-JqNSgu7W5S-afP0yWJnB2ffK6R8o="
                 alt=""
                 className="inline-block h-16 w-16 object-cover rounded-full "
               />
@@ -58,7 +58,7 @@ function Features() {
             {/* Features Item */}
             <div className="grid gap-6 rounded-md border border-solid border-gray-300 p-8 md:p-10">
               <img
-                src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FPlaceholder%20Image.svg?alt=media&token=375a1ea3-a8b6-4d63-b975-aac8d0174074"
+                src="https://w7.pngwing.com/pngs/150/219/png-transparent-computer-icons-speed-speed-speedometer-silhouette-audio-equipment-thumbnail.png"
                 alt=""
                 className="inline-block h-16 w-16 object-cover rounded-full "
               />
@@ -71,11 +71,11 @@ function Features() {
             {/* Features Item */}
             <div className="grid gap-6 rounded-md border border-solid border-gray-300 p-8 md:p-10">
               <img
-                src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FPlaceholder%20Image.svg?alt=media&token=375a1ea3-a8b6-4d63-b975-aac8d0174074"
+                src="https://e7.pngegg.com/pngimages/11/946/png-clipart-quality-control-computer-icons-quality-assurance-quality-miscellaneous-service-thumbnail.png"
                 alt=""
                 className="inline-block h-16 w-16 object-cover rounded-full "
               />
-              <h3 className="text-xl font-semibold">Quality</h3>
+              <h3 className="text-xl font-semibold ">Quality</h3>
               <p className="text-sm text-gray-500">
                 Experience high-quality quizzes with accurate and reliable
                 content.
@@ -84,7 +84,7 @@ function Features() {
             {/* Features Item */}
             <div className="grid gap-6 rounded-md border border-solid border-gray-300 p-8 md:p-10">
               <img
-                src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FPlaceholder%20Image.svg?alt=media&token=375a1ea3-a8b6-4d63-b975-aac8d0174074"
+                src="https://png.pngtree.com/png-clipart/20191121/original/pngtree-book-icon-png-image_5143094.jpg"
                 alt=""
                 className="inline-block h-16 w-16 object-cover rounded-full "
               />

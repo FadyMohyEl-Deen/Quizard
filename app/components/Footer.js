@@ -3,13 +3,13 @@ import React from "react";
 function Footer() {
   return (
     <div>
-      <footer className="block bg-zinc-100">
+      <footer className="block bg-zinc-100 ">
         {/* Container */}
-        <div className="py-16 md:py-20 mx-auto w-full max-w-7xl px-5 md:px-10">
+        <div className="py-10 md:py-20 mx-auto w-full max-w-7xl px-8 md:px-10">
           {/* Component */}
           <div className="sm:flex-row flex justify-between flex-col">
             <h2 className="font-bold text-3xl md:text-5xl w-full max-w-xl">
-              Join our community of quiz enthusiasts and test your knowledge!
+              Join Quizard and test your knowledge now!
             </h2>
             <div className="mt-8 md:mt-0">
               <div className="mb-4 flex max-w-72 items-start justify-start">
@@ -35,7 +35,7 @@ function Footer() {
             </div>
           </div>
           <div className="mb-14 w-full border-b border-black mt-16"></div>
-          <div className="md:flex-row flex justify-between sm:items-center sm:flex-col items-start flex-col-reverse">
+          <div className="md:flex-row flex justify-between sm:items-center sm:flex-col items-center pl-8 md:pl-0">
             <div className="font-semibold mb-4 sm:mb-0 py-1 text-center sm:text-center">
               <a
                 href="#"
@@ -46,11 +46,6 @@ function Footer() {
                 href="#"
                 className="inline-block font-normal text-gray-500 transition hover:text-blue-600 sm:pr-6 lg:pr-12 py-1.5 sm:py-2 pr-6">
                 Services
-              </a>
-              <a
-                href="#"
-                className="inline-block font-normal text-gray-500 transition hover:text-blue-600 sm:pr-6 lg:pr-12 py-1.5 sm:py-2 pr-6">
-                Works
               </a>
               <a
                 href="#"
@@ -68,11 +63,11 @@ function Footer() {
                 Careers
               </a>
             </div>
-            <p className="text-gray-500 text-sm sm:text-base">
-              © 2021 Quizard.co. All rights reserved.
-            </p>
           </div>
         </div>
+        <p className="text-gray-500 text-sm sm:text-base text-center sm:text-center pb-4">
+          © 2021 Quizard.co. All rights reserved.
+        </p>
       </footer>
     </div>
   );

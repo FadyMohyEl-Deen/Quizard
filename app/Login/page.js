@@ -7,17 +7,20 @@ import toast from "react-hot-toast";
 import { Toaster } from "react-hot-toast";
 
 function Login() {
+  const router = useRouter();
   const [user, setUser] = React.useState({ email: "", password: "" });
   const [loading, setLoading] = React.useState(false);
   const [buttonDisabled, setButtonDisabled] = React.useState(false);
 
   const onLogin = async () => {
-    if (!user.email || !user.password) {
-      toast.error("Please enter email and password");
-      return;
-    }
     try {
       setLoading(true);
+      const response = await axios.post("/api/users/login", user);
+      console.log(response);
+      toast.success("Login Successful");
+      router.push("/");
+    } catch (error) {
+      toast.error("Incorrect Email or Password, Please try again!");
     } finally {
       setLoading(false);
     }
@@ -105,13 +108,13 @@ function Login() {
                     />
                   </div>
                   <button
+                    onClick={onLogin}
                     type="button"
                     className={`mt-4 inline-block w-full items-center rounded-md bg-black px-6 py-3 text-center font-semibold text-white ${
                       buttonDisabled || loading
                         ? "opacity-50  cursor-not-allowed"
                         : "cursor-pointer hover:bg-zinc-800 hover:scale-[101%] transition-all ease-in-out duration-300"
                     }`}
-                    onClick={onLogin}
                     disabled={buttonDisabled || loading}>
                     {loading ? "Processing..." : "Login"}
                   </button>
