@@ -5,13 +5,9 @@ function Hero() {
   return (
     <div>
       <header>
-        {/* Hero Container */}
         <div className="mx-auto w-full max-w-7xl px-5 py-10 md:px-10 md:py-20">
-          {/* Component */}
           <div className="grid items-center justify-items-start gap-8 sm:gap-20 lg:grid-cols-2">
-            {/* Hero Content */}
             <div className="flex flex-col">
-              {/* Hero Title */}
               <h1 className="mb-4 text-4xl font-bold md:text-6xl">
                 Welcome to Quizard: Test Your Knowledge!
               </h1>
@@ -20,13 +16,11 @@ function Hero() {
                 your knowledge across various topics and become a Quizard
                 master!
               </p>
-              {/* Hero Button */}
               <Link
                 href="/Register"
                 className="hover:bg-zinc-800 hover:scale-[101%] transition-all ease-in-out duration-300 mb-6 mr-6 w-36 rounded-md bg-black px-6 py-3 text-center font-semibold text-white md:mb-10 lg:mb-12 lg:mr-8">
                 Join Now
               </Link>
-              {/* Hero Comment */}
               <div className="max-w-xs">
                 <p className="mb-4 text-sm text-gray-500">
                   "Quizard is the best platform for testing your knowledge. I
@@ -73,7 +67,6 @@ function Hero() {
                 </div>
               </div>
             </div>
-            {/* Hero Image */}
             <img
               src="/Assets/HeroBG.jpg"
               alt=""
