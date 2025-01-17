@@ -51,9 +51,9 @@ function Features() {
             </div>
             <div className="grid gap-6 rounded-md border border-solid border-gray-300 p-8 md:p-10">
               <img
-                src="https://w7.pngwing.com/pngs/150/219/png-transparent-computer-icons-speed-speed-speedometer-silhouette-audio-equipment-thumbnail.png"
+                src="https://png.pngtree.com/png-vector/20190507/ourmid/pngtree-vector-speedometer-icon-png-image_1024774.jpg"
                 alt=""
-                className="inline-block h-16 w-16 object-cover rounded-full "
+                className="inline-block h-16 w-16 object-cover rounded-full scale-125"
               />
               <h3 className="text-xl font-semibold">Speed</h3>
               <p className="text-sm text-gray-500">
@@ -63,7 +63,7 @@ function Features() {
             </div>
             <div className="grid gap-6 rounded-md border border-solid border-gray-300 p-8 md:p-10">
               <img
-                src="https://e7.pngegg.com/pngimages/11/946/png-clipart-quality-control-computer-icons-quality-assurance-quality-miscellaneous-service-thumbnail.png"
+                src="https://cdn-icons-png.flaticon.com/512/1212/1212289.png"
                 alt=""
                 className="inline-block h-16 w-16 object-cover rounded-full "
               />

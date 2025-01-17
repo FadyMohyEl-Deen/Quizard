@@ -9,9 +9,10 @@ export async function POST(request) {
   try {
     const reqBody = await request.json();
     const { userName, email, password } = reqBody;
+    const lowercaseEmail = email.toLowerCase();
     console.log(reqBody);
 
-    const user = await User.findOne({ email });
+    const user = await User.findOne({ email:lowercaseEmail });
     if (user) {
       return NextResponse.json({ message: "Email already exists" });
     }
@@ -20,7 +21,7 @@ export async function POST(request) {
 
     const newUser = new User({
       userName,
-      email,
+      email: lowercaseEmail,
       password: hashedPassword,
     });
 

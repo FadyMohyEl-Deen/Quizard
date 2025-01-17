@@ -10,9 +10,10 @@ export async function POST(request) {
   try {
     const reqBody = await request.json();
     const { email, password } = reqBody;
+    const lowercaseEmail = email.toLowerCase();
     console.log(reqBody);
 
-    const user = await User.findOne({ email });
+    const user = await User.findOne({ email:lowercaseEmail });
     if (!user) {
       return NextResponse.json({ error: "User not found" }, { status: 404 });
     }

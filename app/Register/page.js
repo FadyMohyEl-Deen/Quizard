@@ -19,8 +19,17 @@ function Register() {
   const [loading, setLoading] = React.useState(false);
 
   const onRegister = async () => {
+    const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/i;
+    if (!emailPattern.test(user.email)) {
+      toast.error("Please enter a valid email (Name@email.com)");
+      return;
+    }
     if (user.password !== user.confirmPassword) {
       toast.error("Password and Confirm Password should be same");
+      return;
+    }
+    if (user.password.length < 8) {
+      toast.error("Password must be at least 8 characters long");
       return;
     }
     try {
@@ -83,7 +92,7 @@ function Register() {
                   alt=""
                   className="mr-4 inline-block"
                 />
-                SignUp with Google
+                Sign Up with Google
               </button>
               <div className="mb-14 mt-14 flex w-full justify-around">
                 <img
@@ -104,7 +113,7 @@ function Register() {
                     <input
                       type="text"
                       className="mb-4 block h-9 w-full rounded-md border border-solid border-black px-3 py-6 pl-6 text-sm text-black placeholder:text-black"
-                      placeholder="Full Name"
+                      placeholder="Username"
                       required=""
                       value={user.userName}
                       onChange={(e) =>
