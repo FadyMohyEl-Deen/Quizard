@@ -5,6 +5,8 @@ import { useRouter } from "next/navigation";
 import axios from "axios";
 import toast from "react-hot-toast";
 import { Toaster } from "react-hot-toast";
+import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
 
 function Login() {
   const router = useRouter();
