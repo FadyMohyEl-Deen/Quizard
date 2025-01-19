@@ -124,7 +124,7 @@ function NavBar() {
                 </Link>
               </div>
 
-              <div className="hidden  sm:flex gap-6 items-center">
+              {/* <div className="hidden  sm:flex gap-6 items-center">
                 <div className="sm:flex sm:gap-4">
                   <Link href={""}>
                     <FaUserCircle
@@ -142,7 +142,7 @@ function NavBar() {
                     Logout
                   </Link>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             <div className="block md:hidden">
