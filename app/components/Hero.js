@@ -6,7 +6,7 @@ function Hero() {
   return (
     <div>
       <header>
-        <div className="mx-auto w-full max-w-7xl px-5 py-10 md:px-10 md:py-20">
+        <div className="mx-auto w-full max-w-7xl py-10  md:py-20">
           <div className="grid items-center justify-items-start gap-8 sm:gap-20 lg:grid-cols-2">
             <div className="flex flex-col">
               <h1 className="mb-4 text-4xl font-bold md:text-6xl">

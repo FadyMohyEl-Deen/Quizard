@@ -77,8 +77,8 @@ function Register() {
         }}
       />
       <section>
-        <div className="mx-auto w-full max-w-3xl px-5 py-16 md:px-10 md:py-20">
-          <div className="mx-auto max-w-xl rounded-md bg-gray-100 px-8 py-12 text-center">
+        <div className="mx-auto w-full max-w-3xl py-16 md:py-20">
+          <div className="mx-auto max-w-xl rounded-md bg-gray-100 py-12 text-center">
             <h2 className="text-3xl mx-auto text-center font-bold max-w-sm md:text-5xl">
               Join Quizard today
             </h2>

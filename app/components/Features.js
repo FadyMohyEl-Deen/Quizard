@@ -5,7 +5,7 @@ function Features() {
   return (
     <div>
       <section>
-        <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-20">
+        <div className="mx-auto w-full max-w-7xl py-16  md:py-20">
           <div className="flex flex-col items-center text-center">
             <h2 className="text-3xl font-bold md:text-5xl">
               Discover the Ultimate Quiz Experience

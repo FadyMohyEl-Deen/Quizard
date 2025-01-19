@@ -48,7 +48,7 @@ function NavBar() {
   };
 
   return (
-    <header ref={navBarRef} className="bg-zinc-100 px-3 md:px-[212px]">
+    <header ref={navBarRef} className="bg-zinc-100 px-7 sm:px-15 md:px-[150px]">
       <Toaster
         toastOptions={{
           duration: 5000,
@@ -59,7 +59,7 @@ function NavBar() {
           },
         }}
       />
-      <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-screen-xl ">
         <div className="flex h-16 items-center justify-between">
           <div className="md:flex md:items-center md:gap-10">
             <Link className="block text-teal-600" href="/">

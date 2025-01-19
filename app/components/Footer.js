@@ -5,8 +5,8 @@ import Image from "next/image";
 function Footer() {
   return (
     <div>
-      <footer className="block bg-zinc-100 ">
-        <div className="py-10 md:py-20 mx-auto w-full max-w-7xl px-8 md:px-10">
+      <footer className="block bg-zinc-100 px-7 sm:px-15 md:px-[150px]">
+        <div className="py-10 md:py-20 mx-auto w-full max-w-7xl">
           <div className="sm:flex-row flex justify-between flex-col">
             <h2 className="font-bold text-3xl md:text-5xl w-full max-w-xl">
               Join Quizard and test your knowledge now!
