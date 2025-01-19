@@ -47,7 +47,7 @@ function NavBar() {
   };
 
   return (
-    <header ref={navBarRef} className="bg-zinc-100 px-2">
+    <header ref={navBarRef} className="bg-zinc-100 px-3 md:px-[212px]">
       <Toaster
         toastOptions={{
           duration: 5000,
@@ -61,9 +61,9 @@ function NavBar() {
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="md:flex md:items-center md:gap-10">
-            <a className="block text-teal-600" href="/">
+            <Link className="block text-teal-600" href="/">
               <img className="w-15 h-10" src="/Assets/Logo.png" alt="Logo" />
-            </a>
+            </Link>
           </div>
 
           <div className="hidden md:block">
