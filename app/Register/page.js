@@ -7,6 +7,7 @@ import toast from "react-hot-toast";
 import { Toaster } from "react-hot-toast";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
+import Image from "next/image";
 
 function Register() {
   const router = useRouter();
@@ -89,7 +90,7 @@ function Register() {
               <button
                 href="#"
                 className="flex w-full max-w-full justify-center rounded-md bg-black py-3 text-white">
-                <img
+                <Image
                   src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a947090e6cf87_GoogleLogo.svg"
                   alt=""
                   className="mr-4 inline-block"
@@ -97,13 +98,13 @@ function Register() {
                 Sign Up with Google
               </button>
               <div className="mb-14 mt-14 flex w-full justify-around">
-                <img
+                <Image
                   src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a948ef4e6cf94_Line%203.svg"
                   alt=""
                   className="inline-block"
                 />
                 <p className="text-sm text-gray-500">or sign up with email</p>
-                <img
+                <Image
                   src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a948ef4e6cf94_Line%203.svg"
                   alt=""
                   className="inline-block"

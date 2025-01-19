@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 function Hero() {
   return (
@@ -23,13 +24,13 @@ function Hero() {
               </Link>
               <div className="max-w-xs">
                 <p className="mb-4 text-sm text-gray-500">
-                  "Quizard is the best platform for testing your knowledge. I
+                &quot;Quizard is the best platform for testing your knowledge. I
                   love the variety of quizzes available and the user-friendly
-                  interface."
+                  interface.&quot;
                 </p>
                 <div className="flex items-center gap-11 sm:flex-row">
                   <div className="flex items-center">
-                    <img
+                    <Image
                       src="https://cdn-icons-png.freepik.com/512/180/180693.png"
                       alt=""
                       className="mr-2 inline-block rounded-full object-cover h-7 w-7 sm:h-7"
@@ -38,27 +39,27 @@ function Hero() {
                   </div>
                   <div className="flex items-center">
                     <p className="mr-2 text-sm font-bold">5/5</p>
-                    <img
+                    <Image
                       src="https://assets.website-files.com/6357722e2a5f19121d37f84d/6357722e2a5f195bcf37f880_Vector.svg"
                       alt=""
                       className="mr-1.5 inline-block w-4"
                     />
-                    <img
+                    <Image
                       src="https://assets.website-files.com/6357722e2a5f19121d37f84d/6357722e2a5f195bcf37f880_Vector.svg"
                       alt=""
                       className="mr-1.5 inline-block w-4"
                     />
-                    <img
+                    <Image
                       src="https://assets.website-files.com/6357722e2a5f19121d37f84d/6357722e2a5f195bcf37f880_Vector.svg"
                       alt=""
                       className="mr-1.5 inline-block w-4"
                     />
-                    <img
+                    <Image
                       src="https://assets.website-files.com/6357722e2a5f19121d37f84d/6357722e2a5f195bcf37f880_Vector.svg"
                       alt=""
                       className="mr-1.5 inline-block w-4"
                     />
-                    <img
+                    <Image
                       src="https://assets.website-files.com/6357722e2a5f19121d37f84d/6357722e2a5f195bcf37f880_Vector.svg"
                       alt=""
                       className="mr-1.5 inline-block w-4"
@@ -67,7 +68,7 @@ function Hero() {
                 </div>
               </div>
             </div>
-            <img
+            <Image
               src="/Assets/HeroBG.jpg"
               alt=""
               className="inline-block h-full w-full max-w-2xl"

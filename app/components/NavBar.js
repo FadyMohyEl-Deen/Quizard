@@ -7,6 +7,7 @@ import { Toaster } from "react-hot-toast";
 import axios from "axios";
 import { useRouter } from "next/navigation";
 import { useAuth } from "../../context/AuthContext";
+import Image from "next/image";
 
 function NavBar() {
   const [open, setOpen] = React.useState(false);
@@ -62,7 +63,7 @@ function NavBar() {
         <div className="flex h-16 items-center justify-between">
           <div className="md:flex md:items-center md:gap-10">
             <Link className="block text-teal-600" href="/">
-              <img className="w-15 h-10" src="/Assets/Logo.png" alt="Logo" />
+              <Image className="w-15 h-10" src="/Assets/Logo.png" alt="Logo" />
             </Link>
           </div>
 

@@ -1,4 +1,6 @@
 import React from "react";
+import Link from "next/link";
+import Image from "next/image";
 
 function Footer() {
   return (
@@ -11,7 +13,7 @@ function Footer() {
             </h2>
             <div className="mt-8 md:mt-0">
               <div className="mb-4 flex max-w-72 items-start justify-start">
-                <img
+                <Image
                   src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94bb99e6cf78_MapPin.svg"
                   alt=""
                   className="inline-block mr-3"
@@ -21,7 +23,7 @@ function Footer() {
                 </p>
               </div>
               <div className="mb-4 flex max-w-72 items-start justify-start">
-                <img
+                <Image
                   src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a944119e6cf76_EnvelopeSimple-2.svg"
                   alt=""
                   className="inline-block mr-3"
@@ -35,31 +37,31 @@ function Footer() {
           <div className="mb-14 w-full border-b border-black mt-16"></div>
           <div className="md:flex-row flex justify-between sm:items-center sm:flex-col items-center pl-8 md:pl-0">
             <div className="font-semibold mb-4 sm:mb-0 py-1 text-center sm:text-center">
-              <a
+              <Link
                 href="#"
                 className="inline-block font-normal text-gray-500 transition hover:text-blue-600 sm:pr-6 lg:pr-12 py-1.5 sm:py-2 pr-6">
                 Home
-              </a>
-              <a
+              </Link>
+              <Link
                 href="#"
                 className="inline-block font-normal text-gray-500 transition hover:text-blue-600 sm:pr-6 lg:pr-12 py-1.5 sm:py-2 pr-6">
                 Services
-              </a>
-              <a
+              </Link>
+              <Link
                 href="#"
                 className="inline-block font-normal text-gray-500 transition hover:text-blue-600 sm:pr-6 lg:pr-12 py-1.5 sm:py-2 pr-6">
                 About Us
-              </a>
-              <a
+              </Link>
+              <Link
                 href="#"
                 className="inline-block font-normal text-gray-500 transition hover:text-blue-600 sm:pr-6 lg:pr-12 py-1.5 sm:py-2 pr-6">
                 Contact Us
-              </a>
-              <a
+              </Link>
+              <Link
                 href="#"
                 className="inline-block font-normal text-gray-500 transition hover:text-blue-600 sm:pr-6 lg:pr-12 py-1.5 sm:py-2 pr-6">
                 Careers
-              </a>
+              </Link>
             </div>
           </div>
         </div>

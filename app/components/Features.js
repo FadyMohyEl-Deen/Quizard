@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 function Features() {
   return (
@@ -16,7 +17,7 @@ function Features() {
           </div>
           <div className="grid gap-5 sm:grid-cols-2 md:grid-cols-3 md:gap-4 lg:gap-6">
             <div className="grid gap-6 rounded-md border border-solid border-gray-300 p-8 md:p-10">
-              <img
+              <Image
                 src="https://t3.ftcdn.net/jpg/05/10/88/82/360_F_510888200_EentlrpDCeyf2L5FZEeSfgYaeiZ80qAU.jpg"
                 alt=""
                 className="inline-block h-16 w-16 object-cover rounded-full "
@@ -28,7 +29,7 @@ function Features() {
               </p>
             </div>
             <div className="grid gap-6 rounded-md border border-solid border-gray-300 p-8 md:p-10">
-              <img
+              <Image
                 src="https://static.thenounproject.com/png/2630835-200.png"
                 alt=""
                 className="inline-block h-16 w-16 object-cover rounded-full "
@@ -39,7 +40,7 @@ function Features() {
               </p>
             </div>
             <div className="grid gap-6 rounded-md border border-solid border-gray-300 p-8 md:p-10">
-              <img
+              <Image
                 src="https://media.istockphoto.com/id/921429972/vector/flexibility-icon-vector-illustration.jpg?s=612x612&w=0&k=20&c=OJRFVO5RgLFfaX-JqNSgu7W5S-afP0yWJnB2ffK6R8o="
                 alt=""
                 className="inline-block h-16 w-16 object-cover rounded-full "
@@ -50,7 +51,7 @@ function Features() {
               </p>
             </div>
             <div className="grid gap-6 rounded-md border border-solid border-gray-300 p-8 md:p-10">
-              <img
+              <Image
                 src="https://png.pngtree.com/png-vector/20190507/ourmid/pngtree-vector-speedometer-icon-png-image_1024774.jpg"
                 alt=""
                 className="inline-block h-16 w-16 object-cover rounded-full scale-125"
@@ -62,7 +63,7 @@ function Features() {
               </p>
             </div>
             <div className="grid gap-6 rounded-md border border-solid border-gray-300 p-8 md:p-10">
-              <img
+              <Image
                 src="https://cdn-icons-png.flaticon.com/512/1212/1212289.png"
                 alt=""
                 className="inline-block h-16 w-16 object-cover rounded-full "
@@ -74,7 +75,7 @@ function Features() {
               </p>
             </div>
             <div className="grid gap-6 rounded-md border border-solid border-gray-300 p-8 md:p-10">
-              <img
+              <Image
                 src="https://png.pngtree.com/png-clipart/20191121/original/pngtree-book-icon-png-image_5143094.jpg"
                 alt=""
                 className="inline-block h-16 w-16 object-cover rounded-full "
