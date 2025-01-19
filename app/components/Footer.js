@@ -16,7 +16,9 @@ function Footer() {
                 <Image
                   src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94bb99e6cf78_MapPin.svg"
                   alt=""
-                  className="inline-block mr-3"
+                  className="inline-block mr-3 mt-1"
+                  width={25}
+                  height={25}
                 />
                 <p className="text-gray-500 text-sm sm:text-base">
                   8502 Preston Rd. Inglewood, Maine 98380, USA
@@ -27,6 +29,8 @@ function Footer() {
                   src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a944119e6cf76_EnvelopeSimple-2.svg"
                   alt=""
                   className="inline-block mr-3"
+                  width={25}
+                  height={25}
                 />
                 <p className="text-gray-500 text-sm sm:text-base">
                   support@Quizard.co

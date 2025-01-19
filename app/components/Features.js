@@ -20,7 +20,9 @@ function Features() {
               <Image
                 src="https://t3.ftcdn.net/jpg/05/10/88/82/360_F_510888200_EentlrpDCeyf2L5FZEeSfgYaeiZ80qAU.jpg"
                 alt=""
-                className="inline-block h-16 w-16 object-cover rounded-full "
+                className="inline-block h-16 w-16 object-cover rounded-full"
+                width={500}
+                height={500}
               />
               <h3 className="text-xl font-semibold">Support</h3>
               <p className="text-sm text-gray-500">
@@ -32,7 +34,9 @@ function Features() {
               <Image
                 src="https://static.thenounproject.com/png/2630835-200.png"
                 alt=""
-                className="inline-block h-16 w-16 object-cover rounded-full "
+                className="inline-block h-16 w-16 object-cover rounded-full"
+                width={500}
+                height={500}
               />
               <h3 className="text-xl font-semibold">Organise</h3>
               <p className="text-sm text-gray-500">
@@ -43,6 +47,8 @@ function Features() {
               <Image
                 src="https://media.istockphoto.com/id/921429972/vector/flexibility-icon-vector-illustration.jpg?s=612x612&w=0&k=20&c=OJRFVO5RgLFfaX-JqNSgu7W5S-afP0yWJnB2ffK6R8o="
                 alt=""
+                width={500}
+                height={500}
                 className="inline-block h-16 w-16 object-cover rounded-full "
               />
               <h3 className="text-xl font-semibold">Flexibility</h3>
@@ -55,6 +61,8 @@ function Features() {
                 src="https://png.pngtree.com/png-vector/20190507/ourmid/pngtree-vector-speedometer-icon-png-image_1024774.jpg"
                 alt=""
                 className="inline-block h-16 w-16 object-cover rounded-full scale-125"
+                width={500}
+                height={500}
               />
               <h3 className="text-xl font-semibold">Speed</h3>
               <p className="text-sm text-gray-500">
@@ -67,6 +75,8 @@ function Features() {
                 src="https://cdn-icons-png.flaticon.com/512/1212/1212289.png"
                 alt=""
                 className="inline-block h-16 w-16 object-cover rounded-full "
+                width={500}
+                height={500}
               />
               <h3 className="text-xl font-semibold ">Quality</h3>
               <p className="text-sm text-gray-500">
@@ -79,6 +89,8 @@ function Features() {
                 src="https://png.pngtree.com/png-clipart/20191121/original/pngtree-book-icon-png-image_5143094.jpg"
                 alt=""
                 className="inline-block h-16 w-16 object-cover rounded-full "
+                width={500}
+                height={500}
               />
               <h3 className="text-xl font-semibold">Resource</h3>
               <p className="text-sm text-gray-500">

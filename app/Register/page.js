@@ -94,6 +94,8 @@ function Register() {
                   src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a947090e6cf87_GoogleLogo.svg"
                   alt=""
                   className="mr-4 inline-block"
+                  width={25}
+                  height={25}
                 />
                 Sign Up with Google
               </button>
@@ -102,12 +104,16 @@ function Register() {
                   src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a948ef4e6cf94_Line%203.svg"
                   alt=""
                   className="inline-block"
+                  width={100}
+                  height={100}
                 />
                 <p className="text-sm text-gray-500">or sign up with email</p>
                 <Image
                   src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a948ef4e6cf94_Line%203.svg"
                   alt=""
                   className="inline-block"
+                  width={100}
+                  height={100}
                 />
               </div>
               <div className="mx-auto mb-4 max-w-sm pb-4">

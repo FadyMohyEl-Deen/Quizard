@@ -63,7 +63,7 @@ function NavBar() {
         <div className="flex h-16 items-center justify-between">
           <div className="md:flex md:items-center md:gap-10">
             <Link className="block text-teal-600" href="/">
-              <Image className="w-15 h-10" src="/Assets/Logo.png" alt="Logo" />
+              <Image className="w-15 h-10" src="/Assets/Logo.png" alt="Logo" width={60} height={10}/>
             </Link>
           </div>
 

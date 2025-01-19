@@ -24,8 +24,8 @@ function Hero() {
               </Link>
               <div className="max-w-xs">
                 <p className="mb-4 text-sm text-gray-500">
-                &quot;Quizard is the best platform for testing your knowledge. I
-                  love the variety of quizzes available and the user-friendly
+                  &quot;Quizard is the best platform for testing your knowledge.
+                  I love the variety of quizzes available and the user-friendly
                   interface.&quot;
                 </p>
                 <div className="flex items-center gap-11 sm:flex-row">
@@ -34,6 +34,8 @@ function Hero() {
                       src="https://cdn-icons-png.freepik.com/512/180/180693.png"
                       alt=""
                       className="mr-2 inline-block rounded-full object-cover h-7 w-7 sm:h-7"
+                      width={50}
+                      height={50}
                     />
                     <p className="text-sm font-bold">Abdullah</p>
                   </div>
@@ -43,26 +45,36 @@ function Hero() {
                       src="https://assets.website-files.com/6357722e2a5f19121d37f84d/6357722e2a5f195bcf37f880_Vector.svg"
                       alt=""
                       className="mr-1.5 inline-block w-4"
+                      width={50}
+                      height={50}
                     />
                     <Image
                       src="https://assets.website-files.com/6357722e2a5f19121d37f84d/6357722e2a5f195bcf37f880_Vector.svg"
                       alt=""
                       className="mr-1.5 inline-block w-4"
+                      width={4}
+                      height={4}
                     />
                     <Image
                       src="https://assets.website-files.com/6357722e2a5f19121d37f84d/6357722e2a5f195bcf37f880_Vector.svg"
                       alt=""
                       className="mr-1.5 inline-block w-4"
+                      width={4}
+                      height={4}
                     />
                     <Image
                       src="https://assets.website-files.com/6357722e2a5f19121d37f84d/6357722e2a5f195bcf37f880_Vector.svg"
                       alt=""
                       className="mr-1.5 inline-block w-4"
+                      width={4}
+                      height={4}
                     />
                     <Image
                       src="https://assets.website-files.com/6357722e2a5f19121d37f84d/6357722e2a5f195bcf37f880_Vector.svg"
                       alt=""
                       className="mr-1.5 inline-block w-4"
+                      width={4}
+                      height={4}
                     />
                   </div>
                 </div>
@@ -72,6 +84,8 @@ function Hero() {
               src="/Assets/HeroBG.jpg"
               alt=""
               className="inline-block h-full w-full max-w-2xl"
+              width={1000}
+              height={1000}
             />
           </div>
         </div>
