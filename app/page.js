@@ -11,14 +11,16 @@ import { AuthProvider } from "../context/AuthContext";
 export default function Home() {
   return (
     <>
-      <AuthProvider>
-        <Head>
-          <link rel="icon" href="/favicon.ico" className="bg-white" />
-        </Head>
-        <Toaster />
-        <Hero />
-        <Features />
-      </AuthProvider>
+    <div className="px-6">
+      <NavBar />
+      <Head>
+        <link rel="icon" href="/favicon.ico" className="bg-white" />
+      </Head>
+      <Toaster />
+      <Hero />
+      <Features />
+      <Footer />
+    </div>
     </>
   );
 }
